@@ -1,0 +1,24 @@
+2022-07-06T13:51:09+00:00 CRITICAL Uncaught Error: Call to undefined function __e() in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\sidebar.php:5
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php(17): get_sidebar()
+#4 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\sidebar.php on line 5
+
+2022-07-06T13:52:22+00:00 CRITICAL Uncaught Error: Call to undefined function __e() in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\sidebar.php:5
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php(17): get_sidebar()
+#4 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\sidebar.php on line 5
+

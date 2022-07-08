@@ -1,0 +1,28 @@
+2022-07-03T02:48:04+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\author-bio.php on line 9
+
+2022-07-03T02:48:35+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\author-bio.php on line 9
+
+2022-07-03T04:08:22+00:00 CRITICAL syntax error, unexpected '}' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 188
+
+2022-07-03T04:10:29+00:00 CRITICAL Uncaught Error: Call to undefined function haduy_entry_tag() in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\content.php:12
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(772): require()
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', false, Array)
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\single.php(9): get_template_part('content', '')
+#4 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\content.php on line 12
+
+2022-07-03T08:25:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function is_active_sidebar(), 0 passed in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\sidebar.php on line 2 and exactly 1 expected in C:\laragon\www\wordpress\wordpress\wp-includes\widgets.php:973
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\sidebar.php(2): is_active_sidebar()
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(770): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', true, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-includes\general-template.php(136): locate_template(Array, true, true, Array)
+#4 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php(17): get_sidebar()
+#5 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\larago in C:\laragon\www\wordpress\wordpress\wp-includes\widgets.php on line 973
+

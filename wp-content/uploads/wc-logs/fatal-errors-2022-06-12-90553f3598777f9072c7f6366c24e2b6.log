@@ -1,0 +1,90 @@
+2022-06-12T03:20:29+00:00 CRITICAL require_once(): Failed opening required 'C:\laragon\www\wordpress\wordpress/wp-content/themes/haduythemee/coreinit.php' (include_path='.;C:/laragon/etc/php/pear') in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 15
+
+2022-06-12T03:25:38+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 21
+
+2022-06-12T04:14:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 61 and exactly 2 expected in C:\laragon\www\wordpress\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php(61): register_nav_menu(Array)
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\class-wp-hook.php(307): hdtheme_setup('')
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\laragon\www\wordpress\wordpress\wp-settings.php(598): do_action('init')
+#5 C:\laragon\www\wordpress\wordpress\wp-config.php(100): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wordpress\wordpress\wp-admin\admin-ajax.php(22) in C:\laragon\www\wordpress\wordpress\wp-includes\nav-menu.php on line 136
+
+2022-06-12T04:15:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function register_nav_menu(), 1 passed in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 61 and exactly 2 expected in C:\laragon\www\wordpress\wordpress\wp-includes\nav-menu.php:136
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php(61): register_nav_menu(Array)
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\class-wp-hook.php(307): hdtheme_setup('')
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\laragon\www\wordpress\wordpress\wp-settings.php(598): do_action('init')
+#5 C:\laragon\www\wordpress\wordpress\wp-config.php(100): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\wp-load.php(50): require_once('C:\\laragon\\www\\...')
+#7 C:\laragon\www\wordpress\wordpress\wp-admin\admin.php(34): req in C:\laragon\www\wordpress\wordpress\wp-includes\nav-menu.php on line 136
+
+2022-06-12T04:31:13+00:00 CRITICAL syntax error, unexpected ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 67
+
+2022-06-12T04:33:13+00:00 CRITICAL syntax error, unexpected ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 67
+
+2022-06-12T04:34:13+00:00 CRITICAL syntax error, unexpected ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 67
+
+2022-06-12T04:36:14+00:00 CRITICAL syntax error, unexpected ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 67
+
+2022-06-12T04:38:15+00:00 CRITICAL syntax error, unexpected ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 67
+
+2022-06-12T06:41:32+00:00 CRITICAL syntax error, unexpected '}' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 102
+
+2022-06-12T06:41:34+00:00 CRITICAL syntax error, unexpected '}' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 102
+
+2022-06-12T06:41:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function haduy_menu(), 0 passed in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\header.php on line 16 and exactly 1 expected in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php:94
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\header.php(16): haduy_menu()
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(770): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', true, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#4 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php(2): get_header()
+#5 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\lara in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 94
+
+2022-06-12T07:00:50+00:00 CRITICAL Uncaught Error: Call to undefined function the_tittle() in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php:6
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\wordpress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php on line 6
+
+2022-06-12T10:36:45+00:00 CRITICAL syntax error, unexpected ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 135
+
+2022-06-12T10:37:25+00:00 CRITICAL Uncaught Error: Call to undefined function haduy_entry_meta() in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\content.php:7
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(772): require()
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', false, Array)
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php(8): get_template_part('content', '')
+#4 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\content.php on line 7
+
+2022-06-12T12:43:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_content() in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\single.php:4
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include()
+#1 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#2 C:\laragon\www\wordpress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#3 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\single.php on line 4
+
+2022-06-12T12:52:17+00:00 CRITICAL syntax error, unexpected ':', expecting ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 173
+
+2022-06-12T12:52:41+00:00 CRITICAL syntax error, unexpected ':', expecting ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 173
+
+2022-06-12T12:52:43+00:00 CRITICAL syntax error, unexpected ':', expecting ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 173
+
+2022-06-12T12:53:46+00:00 CRITICAL syntax error, unexpected ':', expecting ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 173
+
+2022-06-12T12:54:44+00:00 CRITICAL syntax error, unexpected ':', expecting ')' in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\functions.php on line 173
+

@@ -1,0 +1,10 @@
+2022-06-25T11:29:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_settings_section(), 3 passed in C:\laragon\www\wordpress\wordpress\wp-content\plugins\haduy_plugin\admin.php on line 14 and exactly 4 expected in C:\laragon\www\wordpress\wordpress\wp-admin\includes\template.php:1566
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-content\plugins\haduy_plugin\admin.php(14): add_settings_section('hd_mp_main_sect...', 'Main Setting', Array)
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\class-wp-hook.php(307): Ha_duy_Admin->register_setting_and_fiedls('')
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 C:\laragon\www\wordpress\wordpress\wp-admin\admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-admin\includes\template.php on line 1566
+

@@ -1,0 +1,123 @@
+/*
+Theme Name: HaDuyThemee
+Text Domain: haduythemee
+Version: 1.0
+Tested up to: 5.9
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-patterns, block-styles, wide-blocks, accessibility-ready
+Author: Ha Duy Tuan
+Author URI: https://wordpress.org/
+Theme URI: https://wordpress.org/themes/haduythemee/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+/*! normalize.css v1.0.0 | MIT License | git.io/normalize */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: sans-serif;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
+
+.hd-color-white a, .hd-color-white{
+    color: #fff;
+}
+.header {
+	background: #03090e;
+}
+.hd-max-width {
+	max-width: 1200px;
+    margin: 0 auto;
+}
+.menu {
+	display: flex;
+}
+.menu-item {
+    padding: 10px 15px;
+}
+.menu-item:hover {
+	background: #2A2E3E;
+	border-radius: 10px;
+}
+.site-name a {
+	font-size: 36px;
+}
+.logo {
+	padding: 20px;
+}
+.main-content {
+    padding: 20px;
+    width: 70%;
+}
+.main-content article {
+	margin: 20px 0;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	display: flex;
+	gap: 20px;
+	padding: 20px;
+}
+.entry-header {
+	margin-bottom: 15px;
+}
+.entry-header h1 a {
+	font-size: 24px;
+	line-height: 32px;
+	word-break: break-all;
+}
+.d-flex {
+	display: flex;
+}
+.sidebar {
+	width: 30%;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+a.wp-block-latest-comments__comment-link {
+    word-break: break-word;
+}
+.content-container {
+    width: 100%;
+    word-break: break-word;
+}
+.entry-content {
+	word-break: break-word;
+}
+.next {
+    float: right;
+}
+.ft-style {
+	justify-content: space-between;
+}
+
+#footer {
+    min-height: 100px;
+    background: black;
+    color: #fff;
+    padding: 20px;
+}
+#comments {
+    word-break: break-word;
+}
+.comment-body {
+	word-break: break-word;
+}

@@ -1,0 +1,48 @@
+2022-06-15T14:07:32+00:00 CRITICAL Uncaught Error: Call to undefined function add_filters() in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\footer.php:18
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php(20): get_footer()
+#4 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\footer.php on line 18
+
+2022-06-15T14:08:03+00:00 CRITICAL Uncaught Error: Call to undefined function add_filters() in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\footer.php:17
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php(20): get_footer()
+#4 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\footer.php on line 17
+
+2022-06-15T14:11:07+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\footer.php on line 12
+
+2022-06-15T14:25:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function new_action_callback(), 1 passed in C:\laragon\www\wordpress\wordpress\wp-includes\class-wp-hook.php on line 307 and exactly 2 expected in C:\laragon\www\wordpress\wordpress\wp-content\plugins\haduy_plugin\haduy_plugin.php:16
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\class-wp-hook.php(307): new_action_callback('')
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-content\plugins\haduy_plugin\haduy_plugin.php(21): do_action('new_action_hook')
+#4 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\footer.php(9): hd_new_hook()
+#5 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(770): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\. in C:\laragon\www\wordpress\wordpress\wp-content\plugins\haduy_plugin\haduy_plugin.php on line 16
+
+2022-06-15T14:36:49+00:00 CRITICAL Uncaught Error: Call to undefined function hd_new_hook() in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\footer.php:9
+Stack trace:
+#0 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(770): require_once()
+#1 C:\laragon\www\wordpress\wordpress\wp-includes\template.php(716): load_template('C:\\laragon\\www\\...', true, Array)
+#2 C:\laragon\www\wordpress\wordpress\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\index.php(20): get_footer()
+#4 C:\laragon\www\wordpress\wordpress\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wordpress\wordpress\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\wordpress\wordpress\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\wordpress\wordpress\wp-content\themes\haduythemee\footer.php on line 9
+
